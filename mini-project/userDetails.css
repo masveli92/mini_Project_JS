@@ -1,0 +1,49 @@
+/*user-details.html - блок з інфою про user зверху сторінки.
+Кнопка нижчє, на 90% ширини сторінки, по центру.*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+body {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/mini-project/back.jpg);
+    background-size: cover;
+    color: white;
+}
+.userInfoDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infoUl{
+    width: 50%;
+    list-style-type: square;
+    margin: 10px;
+}
+.postButton{
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    background: #C0BFC4;
+    border-radius: 5px;
+}
+.postButton:hover{
+    background: #EFEFEF;
+    cursor: pointer;
+}
+.postBox{
+    margin-top:10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap:10px;
+}
+.postDiv{
+    margin-left: 7px;
+    width:19%;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 90px;
+    padding: 10px;
+    background: #7A808E;
+    color: black;
+}
